@@ -14,5 +14,7 @@ btnMenu.addEventListener('click', ()=>{
 })
 
 setTimeout(() => {
-    document.querySelector('.preloader').style.display="none"
-}, 2540);
+    document.querySelector('.preloader').classList.add('scale-0');
+    
+
+}, 2340);
